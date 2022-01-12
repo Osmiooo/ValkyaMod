@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "valkya:block/cesium_ore"
+    }
+  }
+}

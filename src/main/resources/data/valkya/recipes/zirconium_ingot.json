@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "valkya:zirconium_ore"
+  },
+  "result": "valkya:zirconium_ingot",
+  "experience": 0.1,
+  "cookingtime": 200
+}

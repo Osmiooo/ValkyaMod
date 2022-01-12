@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "valkya:cesium_block",
-    "valkya:zirconium_block"
+    "valkya:zirconium_block",
+    "valkya:cesium_ore",
+    "valkya:zirconium_ore"
   ]
 }
