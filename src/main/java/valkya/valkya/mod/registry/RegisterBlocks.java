@@ -9,11 +9,12 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import valkya.valkya.mod.ValkyaMod;
+import valkya.valkya.mod.blocks.CesiumBlock;
 
 public class RegisterBlocks {
 
 
-    public static final Block CESIUM_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5f, 6f));
+    public static final Block CESIUM_BLOCK = new CesiumBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5f, 6f));
 
     public static void RegisterBlocks() {
 
