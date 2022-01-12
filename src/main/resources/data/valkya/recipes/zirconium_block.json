@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "valkya:zirconium_ingot"
+    }
+  },
+  "result": {
+    "item": "valkya:zirconium_block",
+    "count": 1
+  }
+}

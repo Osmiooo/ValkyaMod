@@ -1,4 +1,6 @@
 {
   "block.valkya.cesium_block": "Cesium Block",
-  "block.valkya.zirconium_block": "Zirconium Block"
+  "block.valkya.zirconium_block": "Zirconium Block",
+  "item.valkya.cesium_ingot": "Cesium Ingot",
+  "item.valkya.zirconium_ingot": "Zirconium Ingot"
 }
