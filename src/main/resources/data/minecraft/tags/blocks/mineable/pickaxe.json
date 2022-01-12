@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valkya:cesium_block"
+    "valkya:cesium_block",
+    "valkya:zirconium_block"
   ]
 }
