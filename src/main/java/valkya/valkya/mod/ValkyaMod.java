@@ -1,6 +1,8 @@
 package valkya.valkya.mod;
 
 import net.fabricmc.api.ModInitializer;
+import valkya.valkya.mod.registry.RegisterBlocks;
+import valkya.valkya.mod.registry.RegisterItems;
 
 public class ValkyaMod implements ModInitializer {
 
@@ -9,5 +11,7 @@ public class ValkyaMod implements ModInitializer {
     @Override
     public void onInitialize() {
 
+        RegisterBlocks.RegisterBlocks();
+        RegisterItems.RegisterItems();
     }
 }
