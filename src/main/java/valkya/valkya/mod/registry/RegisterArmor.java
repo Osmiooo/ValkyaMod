@@ -15,14 +15,14 @@ public class RegisterArmor {
 
     public static final ArmorMaterial CESIUM_ARMOR_MATERIAL = new CesiumArmorMaterial();
     public static final ArmorMaterial ZIRCONIUM_ARMOR_MATERIAL = new ZirconiumArmorMaterial();
-    public static final Item CESIUM_HELMET = new ArmorItem(CESIUM_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT));
-    public static final Item CESIUM_CHESTPLATE = new ArmorItem(CESIUM_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT));
-    public static final Item CESIUM_LEGGINGS = new ArmorItem(CESIUM_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT));
-    public static final Item CESIUM_BOOTS = new ArmorItem(CESIUM_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT));
-    public static final Item ZIRCONIUM_HELMET = new ArmorItem(ZIRCONIUM_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT));
-    public static final Item ZIRCONIUM_CHESTPLATE = new ArmorItem(ZIRCONIUM_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT));
-    public static final Item ZIRCONIUM_LEGGINGS = new ArmorItem(ZIRCONIUM_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT));
-    public static final Item ZIRCONIUM_BOOTS = new ArmorItem(ZIRCONIUM_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT));
+    public static final Item CESIUM_HELMET = new ArmorItem(CESIUM_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(ValkyaMod.VALKYA));
+    public static final Item CESIUM_CHESTPLATE = new ArmorItem(CESIUM_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(ValkyaMod.VALKYA));
+    public static final Item CESIUM_LEGGINGS = new ArmorItem(CESIUM_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(ValkyaMod.VALKYA));
+    public static final Item CESIUM_BOOTS = new ArmorItem(CESIUM_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(ValkyaMod.VALKYA));
+    public static final Item ZIRCONIUM_HELMET = new ArmorItem(ZIRCONIUM_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(ValkyaMod.VALKYA));
+    public static final Item ZIRCONIUM_CHESTPLATE = new ArmorItem(ZIRCONIUM_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(ValkyaMod.VALKYA));
+    public static final Item ZIRCONIUM_LEGGINGS = new ArmorItem(ZIRCONIUM_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(ValkyaMod.VALKYA));
+    public static final Item ZIRCONIUM_BOOTS = new ArmorItem(ZIRCONIUM_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(ValkyaMod.VALKYA));
 
     public static void registerArmor() {
         Registry.register(Registry.ITEM, new Identifier(ValkyaMod.MOD_ID, "cesium_helmet"), CESIUM_HELMET);

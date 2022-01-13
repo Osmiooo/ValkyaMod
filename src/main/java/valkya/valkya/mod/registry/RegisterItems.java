@@ -8,12 +8,12 @@ import valkya.valkya.mod.toolmaterial.*;
 
 public class RegisterItems {
 
-    public static final Item CESIUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MISC));
-    public static final Item ZIRCONIUM_INGOT = new Item(new Item.Settings().group(ItemGroup.MISC));
-    public static ToolItem CESIUM_SWORD = new SwordItem(CesiumToolMaterial.INSTANCE, 0, -2.4f, new Item.Settings().group(ItemGroup.COMBAT).maxCount(1).fireproof());
-    public static ToolItem CESIUM_SHOVEL = new ShovelItem(ZirconiumToolMaterial.INSTANCE, -1.5f, -2.4f, new Item.Settings().group(ItemGroup.TOOLS).maxCount(1).fireproof());
-    public static ToolItem ZIRCONIUM_SWORD = new SwordItem(CesiumToolMaterial.INSTANCE, 0, -2.4f, new Item.Settings().group(ItemGroup.COMBAT).maxCount(1).fireproof());
-    public static ToolItem ZIRCONIUM_SHOVEL = new ShovelItem(ZirconiumToolMaterial.INSTANCE, -1.5f, -2.4f, new Item.Settings().group(ItemGroup.TOOLS).maxCount(1).fireproof());
+    public static final Item CESIUM_INGOT = new Item(new Item.Settings().group(ValkyaMod.VALKYA));
+    public static final Item ZIRCONIUM_INGOT = new Item(new Item.Settings().group(ValkyaMod.VALKYA));
+    public static ToolItem CESIUM_SWORD = new SwordItem(CesiumToolMaterial.INSTANCE, 0, -2.4f, new Item.Settings().group(ValkyaMod.VALKYA).maxCount(1).fireproof());
+    public static ToolItem CESIUM_SHOVEL = new ShovelItem(ZirconiumToolMaterial.INSTANCE, -1.5f, -2.4f, new Item.Settings().group(ValkyaMod.VALKYA).maxCount(1).fireproof());
+    public static ToolItem ZIRCONIUM_SWORD = new SwordItem(CesiumToolMaterial.INSTANCE, 0, -2.4f, new Item.Settings().group(ValkyaMod.VALKYA).maxCount(1).fireproof());
+    public static ToolItem ZIRCONIUM_SHOVEL = new ShovelItem(ZirconiumToolMaterial.INSTANCE, -1.5f, -2.4f, new Item.Settings().group(ValkyaMod.VALKYA).maxCount(1).fireproof());
 
 
     public static void RegisterItems() {

@@ -1,6 +1,20 @@
 {
   "block.valkya.cesium_block": "Cesium Block",
   "block.valkya.zirconium_block": "Zirconium Block",
+  "block.valkya.cesium_ore": "Cesium Ore",
+  "block.valkya.zirconium_ore": "Zirconium Ore",
   "item.valkya.cesium_ingot": "Cesium Ingot",
-  "item.valkya.zirconium_ingot": "Zirconium Ingot"
+  "item.valkya.zirconium_ingot": "Zirconium Ingot",
+  "item.valkya.cesium_sword": "Cesium Sword",
+  "item.valkya.cesium_pickaxe": "Cesium Pickaxe",
+  "item.valkya.cesium_axe": "Cesium Axe",
+  "item.valkya.cesium_shovel": "Cesium Shovel",
+  "item.valkya.cesium_hoe": "Cesium Hoe",
+  "item.valkya.zirconium_sword": "Zirconium Sword",
+  "item.valkya.zirconium_pickaxe": "Zirconium Pickaxe",
+  "item.valkya.zirconium_axe": "Zirconium Axe",
+  "item.valkya.zirconium_shovel": "Zirconium Shovel",
+  "item.valkya.zirconium_hoe": "Zirconium Hoe",
+
+  "itemGroup.valkya.valkya": "Valkya"
 }

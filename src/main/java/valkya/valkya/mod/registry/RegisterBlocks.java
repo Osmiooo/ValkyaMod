@@ -25,13 +25,13 @@ public class RegisterBlocks {
     public static void RegisterBlocks() {
 
         Registry.register(Registry.BLOCK, new Identifier(ValkyaMod.MOD_ID, "cesium_block"), CESIUM_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(ValkyaMod.MOD_ID, "cesium_block"), new BlockItem(CESIUM_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(ValkyaMod.MOD_ID, "cesium_block"), new BlockItem(CESIUM_BLOCK, new FabricItemSettings().group(ValkyaMod.VALKYA)));
         Registry.register(Registry.BLOCK, new Identifier(ValkyaMod.MOD_ID, "zirconium_block"), ZIRCONIUM_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(ValkyaMod.MOD_ID, "zirconium_block"), new BlockItem(ZIRCONIUM_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(ValkyaMod.MOD_ID, "zirconium_block"), new BlockItem(ZIRCONIUM_BLOCK, new FabricItemSettings().group(ValkyaMod.VALKYA)));
         Registry.register(Registry.BLOCK, new Identifier(ValkyaMod.MOD_ID, "cesium_ore"), CESIUM_ORE_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(ValkyaMod.MOD_ID, "cesium_ore"), new BlockItem(CESIUM_ORE_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(ValkyaMod.MOD_ID, "cesium_ore"), new BlockItem(CESIUM_ORE_BLOCK, new FabricItemSettings().group(ValkyaMod.VALKYA)));
         Registry.register(Registry.BLOCK, new Identifier(ValkyaMod.MOD_ID, "zirconium_ore"), ZIRCONIUM_ORE_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(ValkyaMod.MOD_ID, "zirconium_ore"), new BlockItem(ZIRCONIUM_ORE_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(ValkyaMod.MOD_ID, "zirconium_ore"), new BlockItem(ZIRCONIUM_ORE_BLOCK, new FabricItemSettings().group(ValkyaMod.VALKYA)));
 
     }
 }
