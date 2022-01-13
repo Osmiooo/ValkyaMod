@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "valkya.valkya.mod.ValkyaMod"
+    ],
+    "client": [
+      "valkya.valkya.mod.ValkyaModClient"
     ]
   },
   "mixins": [],
